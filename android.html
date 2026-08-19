@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMA APP STORE - Android</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: linear-gradient(135deg, #050505, #111111);
+            color: #00bfff;
+            font-family: 'Tahoma', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(20, 20, 20, 0.95);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 191, 255, 0.3);
+            padding: 30px 20px;
+            border-radius: 20px;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 0 35px rgba(0, 191, 255, 0.2);
+            text-align: center;
+        }
+        h2 { color: #fff; font-size: 18px; margin-bottom: 15px; text-shadow: 0 0 10px rgba(0, 191, 255, 0.6); }
+        .pubg-btn {
+            display: block;
+            background: linear-gradient(135deg, #00bfff, #0077ff);
+            color: white;
+            padding: 14px;
+            margin: 10px 0;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 12px;
+            font-size: 15px;
+            box-shadow: 0 4px 15px rgba(0, 191, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        .pubg-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0, 191, 255, 0.5); }
+        .features-box {
+            display: none;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(0, 191, 255, 0.4);
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 15px;
+            text-align: right;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+        .features-box ul { list-style: none; padding: 0; }
+        .features-box li {
+            font-size: 13px;
+            color: #ddd;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .obb-note { margin-top: 10px; font-size: 13px; color: yellow; text-align: center; font-weight: bold; }
+        .key-box {
+            background: rgba(0, 191, 255, 0.1);
+            border: 1px dashed #00bfff;
+            padding: 8px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px 0;
+            font-family: monospace;
+            color: #00bfff;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .action-btn {
+            display: block;
+            background: linear-gradient(135deg, #00ff66, #00cc52);
+            color: #000;
+            padding: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-top: 12px;
+            text-align: center;
+        }
+        .back-link { display: inline-block; margin-top: 20px; color: #aaa; text-decoration: none; font-size: 13px; }
+        .back-link:hover { color: #fff; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>کام پۆبجی بەکار ئەهێنی هەڵبژێرە 👇🏼</h2>
+        
+        <!-- PUBG GL -->
+        <a href="javascript:void(0);" onclick="showPubg('gl')" class="pubg-btn">PUBG GL ⚡</a>
+        <div id="box-gl" class="features-box">
+            <h3 style="color:#00ff66; text-align:center; margin-bottom:8px;">PUBG GL HACK</h3>
+            <ul>
+                <li><span>ESP / شوێنی نەفەر</span> <span>✅</span></li>
+                <li><span>Aimbot / ئەیم بۆت</span> <span>✅</span></li>
+                <li><span>Skins / سکینەکان</span> <span>✅</span></li>
+                <li><span>No recoil / سکۆپ نەجوڵان</span> <span>✅</span></li>
+                <li><span>Small aim / بچوککردنەوەی ئەیم</span> <span>✅</span></li>
+                <li><span>Silent aim / بوڵێت تراک</span> <span>✅</span></li>
+                <li><span>HitX / گەورە کردنی دامج</span> <span>✅</span></li>
+                <li><span>Hide Hack / شاردنەوەی هاک</span> <span>✅</span></li>
+            </ul>
+            <div class="obb-note">📌 پێویستی بە OBB هەیە ✅</div>
+            <div class="key-box">KEY: @YJHMOD-JN3RX9</div>
+            <a href="https://mega.nz/file/FIBGzaZS#20iIBqvyITiBml-S2nCizkk4RRgrKDM2mlYm-tYyXo0" target="_blank" class="action-btn">داگرتنی فایل 📥</a>
+        </div>
+
+        <!-- PUBG KR -->
+        <a href="javascript:void(0);" onclick="showPubg('kr')" class="pubg-btn">PUBG KR ⚡</a>
+        <div id="box-kr" class="features-box">
+            <h3 style="color:#00ff66; text-align:center; margin-bottom:8px;">PUBG KR HACK</h3>
+            <ul>
+                <li><span>ESP / شوێنی نەفەر</span> <span>✅</span></li>
+                <li><span>Aimbot / ئەیم بۆت</span> <span>✅</span></li>
+                <li><span>Skins / سکینەکان</span> <span>✅</span></li>
+                <li><span>No recoil / سکۆپ نەجوڵان</span> <span>✅</span></li>
+                <li><span>Small aim / بچوککردنەوەی ئەیم</span> <span>✅</span></li>
+                <li><span>Silent aim / بوڵێت تراک</span> <span>✅</span></li>
+                <li><span>HitX / گەورە کردنی دامج</span> <span>✅</span></li>
+                <li><span>Hide Hack / شاردنەوەی هاک</span> <span>✅</span></li>
+            </ul>
+            <div class="obb-note">📌 پێویستی بە OBB هەیە ✅</div>
+            <div class="key-box">KEY: @YJHMOD-JN3RX9</div>
+            <a href="https://mega.nz/file/YEQg2DAQ#fQEJ0hc_4bgyng-c_OG2aXqxrI5mlhyoGq3ZuA6SgsQ" target="_blank" class="action-btn">داگرتنی فایل 📥</a>
+        </div>
+
+        <!-- PUBG TW -->
+        <a href="javascript:void(0);" onclick="showPubg('tw')" class="pubg-btn">PUBG TW ⚡</a>
+        <div id="box-tw" class="features-box">
+            <h3 style="color:#00ff66; text-align:center; margin-bottom:8px;">PUBG TW HACK</h3>
+            <ul>
+                <li><span>ESP / شوێنی نەفەر</span> <span>✅</span></li>
+                <li><span>Aimbot / ئەیم بۆت</span> <span>✅</span></li>
+                <li><span>Skins / سکینەکان</span> <span>✅</span></li>
+                <li><span>No recoil / سکۆپ نەجوڵان</span> <span>✅</span></li>
+                <li><span>Small aim / بچوککردنەوەی ئەیم</span> <span>✅</span></li>
+                <li><span>Silent aim / بوڵێت تراک</span> <span>✅</span></li>
+                <li><span>HitX / گەورە کردنی دامج</span> <span>✅</span></li>
+                <li><span>Hide Hack / شاردنەوەی هاک</span> <span>✅</span></li>
+            </ul>
+            <div class="obb-note">📌 پێویستی بە OBB هەیە ✅</div>
+            <div class="key-box">KEY: @YJHMOD-JN3RX9</div>
+            <a href="https://mega.nz/file/BVRCDJiT#m6yDTnjuFjTTWA3ghxTmXEoKsjuWnJpFBOnOGW6f3xc" target="_blank" class="action-btn">داگرتنی فایل 📥</a>
+        </div>
+
+        <!-- PUBG VNG -->
+        <a href="javascript:void(0);" onclick="showPubg('vng')" class="pubg-btn">PUBG VNG ⚡</a>
+        <div id="box-vng" class="features-box">
+            <h3 style="color:#00ff66; text-align:center; margin-bottom:8px;">PUBG VNG HACK</h3>
+            <ul>
+                <li><span>ESP / شوێنی نەفەر</span> <span>✅</span></li>
+                <li><span>Aimbot / ئەیم بۆت</span> <span>✅</span></li>
+                <li><span>Skins / سکینەکان</span> <span>✅</span></li>
+                <li><span>No recoil / سکۆپ نەجوڵان</span> <span>✅</span></li>
+                <li><span>Small aim / بچوککردنەوەی ئەیم</span> <span>✅</span></li>
+                <li><span>Silent aim / بوڵێت تراک</span> <span>✅</span></li>
+                <li><span>HitX / گەورە کردنی دامج</span> <span>✅</span></li>
+                <li><span>Hide Hack / شاردنەوەی هاک</span> <span>✅</span></li>
+            </ul>
+            <div class="obb-note">📌 پێویستی بە OBB هەیە ✅</div>
+            <div class="key-box">KEY: @YJHMOD-JN3RX9</div>
+            <a href="https://mega.nz/file/lFomkZBZ#X-0CL5UUbT0ADUPMOhjwlTCd8-qOVg59PMEE6usfWIc" target="_blank" class="action-btn">داگرتنی فایل 📥</a>
+        </div>
+
+        <br>
+        <a href="index.html" class="back-link">⬅ گەڕانەوە بۆ سەرەتا</a>
+    </div>
+
+    <script>
+        function showPubg(type) {
+            let types = ['gl', 'kr', 'tw', 'vng'];
+            types.forEach(t => {
+                let box = document.getElementById('box-' + t);
+                if (t === type) {
+                    box.style.display = box.style.display === 'block' ? 'none' : 'block';
+                } else {
+                    box.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
