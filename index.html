@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAMA APP STORE</title>
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
             background: linear-gradient(135deg, #050505, #111111);
             color: #00ff66;
@@ -27,8 +31,19 @@
             box-shadow: 0 0 35px rgba(0, 255, 102, 0.2);
             text-align: center;
         }
-        h1 { font-size: 24px; margin-bottom: 12px; color: #fff; text-shadow: 0 0 15px rgba(0, 255, 102, 0.6); }
-        p { font-size: 14px; color: #aaa; margin-bottom: 25px; line-height: 1.6; }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(0, 255, 102, 0.6);
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
         .platform-btn {
             display: block;
             color: white;
@@ -39,19 +54,39 @@
             border-radius: 14px;
             font-size: 16px;
             transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
         }
-        .ios-btn { background: linear-gradient(135deg, #ff0055, #ff5500); box-shadow: 0 5px 20px rgba(255, 0, 85, 0.3); }
-        .android-btn { background: linear-gradient(135deg, #00bfff, #0077ff); box-shadow: 0 5px 20px rgba(0, 191, 255, 0.3); }
-        .platform-btn:hover { transform: translateY(-3px); }
+        .platform-btn:hover {
+            transform: translateY(-3px);
+        }
+        .ios-btn {
+            background: linear-gradient(135deg, #ff0055, #ff5500);
+            box-shadow: 0 5px 20px rgba(255, 0, 85, 0.3);
+        }
+        .ios-btn:hover {
+            box-shadow: 0 8px 25px rgba(255, 0, 85, 0.5);
+        }
+        .android-btn {
+            background: linear-gradient(135deg, #00bfff, #0077ff);
+            box-shadow: 0 5px 20px rgba(0, 191, 255, 0.3);
+        }
+        .android-btn:hover {
+            box-shadow: 0 8px 25px rgba(0, 191, 255, 0.5);
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>بەخێر بێیت بۆ HAMA APP STORE</h1>
-        <p>دروسکراوی چەناڵی <br><strong style="color: #00ff66; font-size: 16px;">HAMA⚡️ViP</strong><br><br><span style="direction: rtl; unicode-bidi: bidi-override; display: inline-block;">تکایە سیستەمی مۆبایلەکەت هەڵبژێرە 👇🏼</span></p>
+        <p>دروسکراوی چەناڵی <br><strong style="color: #00ff66; font-size: 16px;">HAMA⚡️ViP</strong><br><br>تکایە سیستەمی مۆبایلەکەت هەڵبژێرە 👇🏼</p>
 
+        <!-- دوگمەی ئایفۆن بۆ چوونە ناو پەڕەی ئایفۆن -->
         <a href="iphone.html" class="platform-btn ios-btn">iPhone IOS 📱</a>
+        
+        <!-- دوگمەی ئەندرۆید بۆ چوونە ناو پەڕەی ئەندرۆید -->
         <a href="android.html" class="platform-btn android-btn">ANDROID 🤖</a>
     </div>
+
 </body>
 </html>
